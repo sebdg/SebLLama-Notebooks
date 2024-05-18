@@ -5,6 +5,4 @@ pandas
 datasets
 transformers
 tokenizers
-huggingface-hub
 tqdm
--r ./Emotions/requirements.txt

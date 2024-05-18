@@ -1,1 +1,6 @@
-conda create -p .conda python==3.11 pytorch tensorflow[and-cuda] cuda-toolkit cudatoolkit --file Emotions/requirements.txt -c pytorch -c nvidia 
+echo "🚀 Creating and Installing .conda Environment 🚀"
+conda create -p .conda python==3.9  tensorflow[and-cuda]  pytorch  cuda-toolkit cudatoolkit xformers -c pytorch -c nvidia -c xformers
+
+echo "🛰️ Launching satelites 🛰️"    
+conda -n .conda conda install --file requirements.txt
+echo "🧨 Evening the odds 🧨"
