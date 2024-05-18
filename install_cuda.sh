@@ -1,0 +1,1 @@
+conda create -p .conda python==3.11 pytorch tensorflow[and-cuda] cuda-toolkit cudatoolkit --file Emotions/requirements.txt -c pytorch -c nvidia 

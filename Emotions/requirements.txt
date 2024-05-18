@@ -1,0 +1,5 @@
+tensorboard
+keras
+transformers
+nltk
+scikit-learn
