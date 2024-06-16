@@ -5,3 +5,4 @@ keras-tuner
 transformers
 pyarrow
 fastparquet
+tensorflow==2.15
