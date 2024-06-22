@@ -93,12 +93,12 @@ def build_transformer_model(hp):
 strategy = tf.distribute.MirroredStrategy()
 
 # Tuner
-tuner = kt.RandomSearch(
+tuner = kt.Hyperband(
     build_transformer_model,
     objective='val_accuracy',
-    max_trials=10,
+    max_epochs=100,
     executions_per_trial=1,
-    directory='my_dir',
+    directory='runs',
     project_name='transformer_tuning',
     distribution_strategy=strategy
 )

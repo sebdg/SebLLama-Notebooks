@@ -38,14 +38,15 @@ def build_model(hp):
                   loss='binary_crossentropy',
                   metrics=['accuracy'])
     return model
-
+strategy = tf.distribute.MirroredStrategy()
 tuner = kt.RandomSearch(
     build_model,
     objective='val_accuracy',
     max_trials=10,
     executions_per_trial=1,
     directory='my_dir',
-    project_name='emotion_detection_tuning'
+    project_name='emotion_detectionx',
+    distribution_strategy=strategy
 )
 import pandas as pd
 
@@ -53,7 +54,7 @@ train = pd.read_parquet("go_emotions_train.parquet")
 test = pd.read_parquet("go_emotions_test.parquet")
 
 
-emotions = train.columns[1:].values
+emotions = train.columns[1:29].values
 
 tokenizer = BertTokenizerFast.from_pretrained('bert-base-cased')
 tokenizer.add_tokens(additional_tokens)

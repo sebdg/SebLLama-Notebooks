@@ -1,0 +1,240 @@
+{
+  "emotion_detection": [
+    {
+      "input_template": "Identify the emotional tone present in the given statement: '{sentence}'.",
+      "output_template": "The sentence expresses: '{emotions}'."
+    },
+    {
+      "input_template": "Classify the emotions expressed in the following sentence: '{sentence}'",
+      "output_template": "{emotions}"
+    },
+    {
+      "input_template": "Identify all the emotions present in the following sentence: '{sentence}'",
+      "output_template": "The emotions are : {emotions}"
+    },
+    {
+      "input_template": "Classify the emotions and their intensity in the following sentence: '{sentence}'",
+      "output_template": "This text exposes {emotions} as emotions"
+    },
+    { 
+      "input_template": "Detect the emotions in the following text: '{sentence}'",
+      "output_template": "{emotions}"
+    }
+   
+  ],
+  "emotion_generation": [
+    {
+      "input_template": "Create a statement that conveys {emotions}.",
+      "output_template": "The expression: {sentence}."
+    },
+    {
+      "input_template": "Produce a statement that communicates: {emotions}.",
+      "output_template": "Here is the expressed sentiment: {sentence}."
+    },
+    {
+      "input_template": "Create a phrase that delivers the desired {emotions}.",
+      "output_template": "Presenting the conveyed emotion: {sentence}."
+    },
+    {
+      "input_template": "Compose a statement that captures the given {emotions}.",
+      "output_template": "The following statement reflects: {sentence}."
+    },
+    {
+      "input_template": "Formulate a sentence that conveys {emotions}.",
+      "output_template": "Here's the sentence expressing: {sentence}."
+    }
+  
+  ],
+  "emotion_analysis": [
+    {
+      "input_template": "Identify the emotional tone conveyed through the language used in the given sentence: '{sentence}'.",
+      "output_template": "The detected emotional sentiment of the sentence is: '{emotions}'."
+    },
+    {
+      "input_template": "Determine the sentimental attitude conveyed by the language in the provided passage: '{sentence}'.",
+      "output_template": "The emotional resonance of the sentence is characterized as: '{emotions}'."
+    },
+    {
+      "input_template": "Examine the emotional undertones present in the given text: '{sentence}'.",
+      "output_template": "The sentence evokes feelings of: '{emotions}'."
+    },
+    {
+      "input_template": "Interpret the emotional tone embedded in the passage: '{sentence}'.",
+      "output_template": "The emotional essence of the sentence is: '{emotions}'."
+    },
+    {
+      "input_template": "Uncover the emotional nuances present in the given sentence: '{sentence}'.",
+      "output_template": "The sentence embodies an emotional tone of: '{emotions}'."
+    },
+    {
+      "input_template": "Identify the prevailing emotional sentiment expressed in the given sentence: '{sentence}'.",
+      "output_template": "The primary emotional inclination of the sentence is: '{emotions}'."
+    },
+    {
+      "input_template": "Detect the overarching emotional atmosphere present in the provided sentence: '{sentence}'.",
+      "output_template": "The sentence is predominantly characterized by: '{emotions}'."
+    },
+    {
+      "input_template": "Discern the most prominent emotional tone in the given sentence: '{sentence}'.",
+      "output_template": "The prevailing emotional tone of the sentence is: '{emotions}'."
+    },
+    {
+      "input_template": "Ascertain the primary emotional resonance of the provided sentence: '{sentence}'.",
+      "output_template": "The sentence is emotionally marked by: '{emotions}'."
+    },
+    {
+      "input_template": "Identify the emotional keynote that pervades the given sentence: '{sentence}'.",
+      "output_template": "The sentence is emotionally distinguished by: '{emotions}'."
+    },
+    {
+      "input_template": "Analyze the emotions expressed in the following paragraph: '{sentence}'",
+      "output_template": "{emotions}"
+    },
+    {
+      "input_template": "Determine the dominant emotion trend in the following text: '{sentence}'",
+      "output_template": "{emotions}"
+    },
+    {
+      "input_template": "Examine the most prominent emotional pattern in the given text: `{sentence}`",
+      "output_template": "Assessment of prevalent emotions: {emotions}"
+    }
+  ],
+  "conversational_context": [
+    {
+      "input_template": "Identify the emotions of the following dialogue exchange: Person A: '{sentence}' Person B: '{second_sentence}'",
+      "output_template": "{emotions}"
+    },
+    {
+      "input_template": "Generate an {response_style} response to the following sentence: '{sentence}'",
+      "output_template": "{response}"
+    }
+  ],
+  "emotional_summarization": [
+    {
+      "input_template": "Summarize the emotions expressed in this text: '{sentence}'",
+      "output_template": "{emotions}"
+    }
+  ],
+  "emotion_comparison": [
+    {
+      "input_template": "Compare the emotions expressed in these two sentences: '{sentence}' and '{second_sentence}'",
+      "output_template": "{emotions}"
+    }
+  ],
+  "emotion_explanation": [
+    {
+      "input_template": "Explain why the following sentence expresses {emotions}: '{sentence}'",
+      "output_template": "{response}"
+    }
+  ],
+  "emotion_detection_in_social_media": [
+    {
+      "input_template": "Analyze the emotions in this tweet: '{sentence}'",
+      "output_template": "{emotions}"
+    },
+    {
+      "input_template": "Identify the emotions in this Reddit comment: '{sentence}'",
+      "output_template": "{emotions}"
+    }
+  ],
+  "emotion_engagement": [
+    {
+      "input_template": "Engage with the emotions expressed in the following sentence: '{sentence}'",
+      "output_template": "{response}"
+    },
+    {
+      "input_template": "Respond to the emotions conveyed in this statement: '{sentence}'",
+      "output_template": "{response}"
+    },
+    {
+      "input_template": "Acknowledge the emotions expressed in the following text: '{sentence}'",
+      "output_template": "{response}"
+    }
+  ],
+  "emotion_based_recommendations": [
+    {
+      "input_template": "Based on the emotions expressed in the following sentence, recommend a course of action: '{sentence}'",
+      "output_template": "{response}"
+    },
+    {
+      "input_template": "Considering the emotional tone conveyed in the given statement, suggest an appropriate response strategy: '{sentence}'.",
+      "output_template": "The recommended approach to address the expressed emotions is: '{response}'."
+    },
+    {
+      "input_template": "Develop an appropriate plan based on the emotional undertones present in the statement: '{sentence}'.",
+      "output_template": "The suggested strategy to tackle the expressed emotions is: '{response}'."
+    },
+    {
+      "input_template": "Determine a suitable reaction based on the emotional sentiment conveyed in: '{sentence}'.",
+      "output_template": "The proposed emotional response is: '{response}'."
+    },
+    {
+      "input_template": "Formulate a strategy based on the emotional tone evident in the statement: '{sentence}'.",
+      "output_template": "The advised emotional response strategy is: '{response}'."
+    },
+    {
+      "input_template": "Create a plan of action guided by the emotional nuances present in: '{sentence}'.",
+      "output_template": "The emotionally informed response is: '{response}'."
+    }
+],
+"emotion_and_context": [
+  {
+    "input_template": "Considering the context, identify the emotions in this sentence: '{sentence}' (Context: {context})",
+    "output_template": "{emotions}"
+  },
+  {
+    "input_template": "Generate a response to the following text that acknowledges the emotions expressed: '{sentence}'",
+    "output_template": "{response}"
+  }
+],
+"cross_domain_emotion_detection": [
+  {
+    "input_template": "Identify the emotions in this movie review: '{sentence}'",
+    "output_template": "{emotions}"
+  },
+  {
+    "input_template": "Analyze the emotions expressed in this product review: '{sentence}'",
+    "output_template": "{emotions}"
+  }
+],
+"creative_writing_with_emotions": [
+  {
+    "input_template": "Write a short story that primarily conveys emotions of {emotions}",
+    "output_template": "{sentence}"
+  }
+],
+"combining_emotions_with_other_data": [
+  {
+    "input_template": "Analyze the emotions conveyed in this news article: '{sentence}'",
+    "output_template": "{emotions}"
+  },
+  {
+    "input_template": "Identify the emotions in the following email: '{sentence}'",
+    "output_template": "{emotions}"
+  }
+],
+"multi_modal_emotion_analysis": [
+  {
+    "input_template": "Identify the emotions expressed in this text and the accompanying image: '{sentence}' (Image: {image_description})",
+    "output_template": "{emotions}"
+  }
+],
+"emotion_based_querying": [
+  {
+    "input_template": "Retrieve documents that express {emotions} emotions from the following dataset.",
+    "output_template": "{response}"
+  }
+],
+"complex_emotion_tasks": [
+  {
+    "input_template": "Identify all mixed emotions expressed in the following text: '{sentence}'",
+    "output_template": "{emotions}"
+  }
+],
+"integrating_emotions_in_machine_learning_workflows": [
+  {
+    "input_template": "Detect emotions in user feedback to train a reinforcement learning model to improve customer service responses: '{sentence}'",
+    "output_template": "{emotions}"
+  }
+]
+}
