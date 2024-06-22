@@ -1,0 +1,26 @@
+additional_tokens = [ 
+    # smileys
+    ":)", ";)", ":P", ":D", ":(", ":'(", ":O", ":/", ":|", ":*", ":@", ">:(", 
+    # emojis and their unicode representation
+    ":thumbsup:", "👍", ":thumbsdown:", "👎", ":clap:", "👏", ":wave:", "👋", ":pray:", "🙏", 
+    ":smile:", "😄", ":grinning:", "😀", ":laughing:", "😆", ":sweat_smile:", "😅", ":rofl:", "🤣", 
+    ":blush:", "😊", ":innocent:", "😇", ":wink:", "😉", ":relieved:", "😌", ":heart_eyes:", "😍", 
+    ":kissing_heart:", "😘", ":kissing:", "😗", ":kissing_smiling_eyes:", "😙", ":kissing_closed_eyes:", "😚", 
+    ":yum:", "😋", ":stuck_out_tongue:", "😛", ":stuck_out_tongue_winking_eye:", "😜", 
+    ":stuck_out_tongue_closed_eyes:", "😝", ":money_mouth_face:", "🤑", ":hugs:", "🤗", ":smirk:", "😏", 
+    ":unamused:", "😒", ":disappointed:", "😞", ":pensive:", "😔", ":worried:", "😟", ":confused:", "😕", 
+    ":persevere:", "😣", ":confounded:", "😖", ":tired_face:", "😫", ":weary:", "😩", ":cry:", "😢", 
+    ":sob:", "😭", ":frowning:", "☹️", ":anguished:", "😧", ":fearful:", "😨", ":cold_sweat:", "😰", 
+    ":disappointed_relieved:", "😥", ":sweat:", "😓", ":hugging_face:", "🤗", ":thinking:", "🤔", 
+    ":shushing_face:", "🤫", ":lying_face:", "🤥", ":no_mouth:", "😶", ":neutral_face:", "😐", 
+    ":expressionless:", "😑", ":grimacing:", "😬", ":rolling_eyes:", "🙄", ":hushed:", "😯", 
+    ":frowning2:", "☹️", ":anguished:", "😧", ":open_mouth:", "😮", ":astonished:", "😲", 
+    ":sleeping:", "😴", ":drooling_face:", "🤤", ":sleepy:", "😪", ":dizzy_face:", "😵", 
+    ":zipper_mouth_face:", "🤐", ":nauseated_face:", "🤢", ":sneezing_face:", "🤧", ":mask:", "😷", 
+    ":thermometer_face:", "🤒", ":head_bandage:", "🤕", ":smiling_imp:", "😈", ":imp:", "👿", 
+    ":japanese_ogre:", "👹", ":japanese_goblin:", "👺", ":skull:", "💀", ":ghost:", "👻", ":alien:", "👽", 
+    ":robot:", "🤖", ":poop:", "💩", ":smiley_cat:", "😺", ":smile_cat:", "😸", ":joy_cat:", "😹", 
+    ":heart_eyes_cat:", "😻", ":smirk_cat:", "😼", ":kissing_cat:", "😽", ":scream_cat:", "🙀", 
+    ":crying_cat_face:", "😿", ":pouting_cat:", "😾", ":raised_hands:", "🙌", ":clap:", "👏", 
+    ":wave:", "👋", 
+    ]

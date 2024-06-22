@@ -1,5 +1,8 @@
-tensorboard
-keras
+pandas
+numpy
+matplotlib
+keras-tuner
 transformers
-nltk
-scikit-learn
+pyarrow
+fastparquet
+tensorflow==2.15
